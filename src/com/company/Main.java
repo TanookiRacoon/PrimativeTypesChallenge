@@ -9,5 +9,7 @@ public class Main {
 
         long myChallengeLong = (50000L + 10L * (myChallengeByte + myChallengeShort + myChallengeInt));
         System.out.println(myChallengeLong);
+
+        short shortTotal = (short) (1000 + 10 * (myChallengeByte + myChallengeShort + myChallengeInt));
     }
 }
